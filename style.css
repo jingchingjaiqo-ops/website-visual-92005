@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(125, 160, 72);
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(111, 78%, 35%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsla(111, 76%, 19%, 0.351);
+}
+
+.navbar li{
+    float: left;
+}
+
+.button{
+    padding: 0.67px;
+    margin: 6.7px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.container1{
+    display: flex;
+    margin: 50px;
+}
+
+.container2{
+    display: flex;
+    margin: 50px;
+}
+
+.container3{
+    display: flex;
+    margin: 50px;
+}
+
+.container4{
+    display: flex;
+    margin: 50px;
+}
+
+.container5{
+    display: flex;
+    margin: 50px;
+}
+
+.container1 img{
+    width: 70%;
+    height: 70%;
+}
+
+.container2 img{
+    width: 70%;
+    height: 70%;
+}
+
+.container3 img{
+    width: 70%;
+    height: 70%;
+}
+
+.container4 img{
+    width: 70%;
+    height: 70%;
+}
+
+.container5 img{
+    width: 70%;
+    height: 70%;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type=],
+input[type=tel],
+input[type=email]{
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover{
+    background-color: #45a049;
+}
